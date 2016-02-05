@@ -1,0 +1,61 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body { 
+	margin-top: -webkit-calc(100vh);
+	margin-top: -moz-calc(100vh);
+}
+
+.container-fluid {
+	padding: -webkit-calc(5vh) -webkit-calc(5vh);
+	padding: -moz-calc(5vh) -moz-calc(5vh);
+}
+
+/* Opener */
+#opener {
+	position: absolute;
+	overflow: hidden;
+	display: table;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+#opener-content {
+	display: table-cell;
+	vertical-align: middle;
+}
+#opener-content h1,h4 {
+	color: #FFF;
+}
+#scene {
+	width: 140%; 
+	height: 140%;
+	position: absolute;
+	top: -20%;
+	left: -20%;
+	z-index: -1;
+}
+.layer { 
+	width: 100%;
+	height: 100%;
+}
+
+/* Backgrounds */
+#projects { background-image: linear-gradient(rgba(0,0,0, 0.45), rgba(0,0,0, 0.45)); }
+#skills { background-image: linear-gradient(rgba(20,204,255, 0.45), rgba(0,204,255, 0.45)); }
+#contact { background: linear-gradient(rgba(255, 0, 255, 0.45), rgba(255, 0, 255, 0.45)); }
+
+/* Adjustments */
+
+/* for bs columns */
+.card-container {
+	border: -webkit-calc(5vh) solid transparent;
+	border: -moz-calc(5vh) solid transparent;
+	padding: 0;
+}
+.card {
+	background: #FFF;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
