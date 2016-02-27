@@ -14,6 +14,9 @@ body {
 	padding: -webkit-calc(5vh) -webkit-calc(5vh);
 	padding: -moz-calc(5vh) -moz-calc(5vh);
 }
+.text-center{text-align:center}
+
+
 
 /* Opener */
 #opener {
@@ -46,8 +49,8 @@ body {
 }
 
 /* Backgrounds */
-#projects { background-image: linear-gradient(rgba(0,0,0, 0.45), rgba(0,0,0, 0.45)); }
 /*#skills { background-image: linear-gradient(rgba(20,204,255, 0.45), rgba(0,204,255, 0.45)); }*/
+/*#projects { background-image: linear-gradient(rgba(0,0,0, 0.45), rgba(0,0,0, 0.45)), url("../imgs/bg-projects.jpg"); } */
 #contact { background: linear-gradient(rgba(255, 0, 255, 0.45), rgba(255, 0, 255, 0.45)); }
 
 /* Adjustments */
@@ -60,6 +63,10 @@ body {
 }
 .card {
 	background: #FFF;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.elevated {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -173,4 +180,32 @@ html.nav-open {
 .bg-gray { background-color: #AAAAAA; }
 .bg-silver { background-color: #DDDDDD; }
 .bg-white { background-color: #FFFFFF; }
+
+
+
 .bg-dark-gray { background-color: #282828; }
+.bg-lght-gray { background-color: #f0ffff; }
+.bg-dark-blck { background-color: #000000; }
+
+.bg-sgray { background-color: #414042; }
+
+/* img background color: http://www.coolphptools.com/color_extract*/
+
+
+/*
+#progress {
+	position: fixed;
+	height:2%;
+	background:hsl(920, 100%, 50%);
+	bottom:0;
+	z-index:1000;
+}*/
+
+
+
+#footer .img-bottom-cool {
+	position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+}
